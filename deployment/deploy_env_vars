@@ -1,0 +1,20 @@
+# Team Settings
+teamid=dg0312
+root_project=lifesub-web
+namespace=dg0312-lifesub-ns
+service_name=lifesub-web
+ingress_host=20.249.186.119
+
+# Container Registry Settings
+registry=acrdigitalgarage03.azurecr.io
+image_org=dg0312
+
+# Application Settings
+replicas=1
+export_port=18080
+
+# Resource Settings
+resources_requests_cpu=256m
+resources_requests_memory=256Mi
+resources_limits_cpu=1024m
+resources_limits_memory=1024Mi
